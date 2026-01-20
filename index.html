@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vergessene NS Architekturdawd</title>
+  <title>Vergessene NS Architektur - Flugplatz Deiningen</title>
   <style>
     * {
       margin: 0;
@@ -114,13 +114,34 @@
         opacity: 1;
         transform: translateX(-50%) translateY(0);
       }
+    }    
+
+    .sub-link {
+      margin-top: 12px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #666;
+      opacity: 0;
+      text-underline-offset: 3px;
+      text-decoration: underline;
+      transition: color 0.2s ease, text-decoration 0.2s ease;
+      
+      animation: fadeIn 0.5s ease forwards;
+      animation-delay: 0.3s;
     }
+
+    .sub-link:hover {
+      color: #000;
+      text-decoration: none;
+    }
+
   </style>
 </head>
 <body>
   <header>
     <h1>Vergessene NS Architektur</h1>
     <p class="sub">Kommandanturgebäude Deiningen — Stube, Barfüßerstraße 8 — ab 23.01.2026</p>
+    <a class="sub-link" href="/Der Deininger Flugplatz im Wandel_Unsichtbare NS Architektur_THA.pdf">Wissenschaftliche Arbeit zum Flugplatz Deiningen</a>
   </header>
 
   <div class="model-container">
